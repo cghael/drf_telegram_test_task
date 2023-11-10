@@ -13,6 +13,8 @@ Telegram bot has only one function. When you click the button, it asks you to en
 
 ## Startup instructions
 
+Before you begin, make sure you have the necessary variables set in your environment variables. You can simply create a `.env` file using the `env_template`
+
 1. Clone the repository
 ```commandline
 git clone https://github.com/cghael/drf_telegram_test_task.git
