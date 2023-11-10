@@ -5,8 +5,8 @@ from aiogram.filters import StateFilter
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
-from telegram_bot.keyboards.for_weather import get_city_name_kb
-from telegram_bot.states.states import CityWeather
+from keyboards.for_weather import get_city_name_kb
+from states.states import CityWeather
 
 
 router = Router()

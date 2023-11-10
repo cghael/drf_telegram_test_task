@@ -1,7 +1,7 @@
 from aiogram import Router, types, F
 from aiogram.fsm.context import FSMContext
 
-from telegram_bot.states.states import CityWeather
+from states.states import CityWeather
 
 
 router = Router()

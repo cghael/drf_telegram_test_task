@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from telegram_bot.keyboards.for_weather import get_city_name_kb
+from keyboards.for_weather import get_city_name_kb
 
 
 router = Router()
