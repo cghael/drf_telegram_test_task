@@ -21,8 +21,14 @@ git clone https://github.com/cghael/drf_telegram_test_task.git
 
 cd drf_telegram_test_task
 ```
-2. Install dependencies
+2. Create a virtual environment and install dependencies
 ```commandline
+python -m venv venv
+
+source venv/bin/activate
+
+pip install --upgrade pip
+
 pip install -r requirements.txt
 ```
 ### Django server
